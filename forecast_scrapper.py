@@ -11,7 +11,7 @@ Description_not_fixed = bsObj.find_all(class_ = "_-_-components-src-molecule-Day
 
 Dates = [Date.get_text()for Date in Dates_not_fixed]
 Tempratures = [Temprature.get_text()for Temprature in Tempratures_not_fixed]
-# Descriptions = []
+
 
 
 weather_deatils = DataFrame({
